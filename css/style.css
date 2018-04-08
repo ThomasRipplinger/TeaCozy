@@ -1,0 +1,142 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    z-index: 1;
+    height: 69px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+}
+
+header .logo {
+    background-image: url("../resources/img-tea-cozy-logo.png");
+    background-size: 157px 50px;
+    width: 157px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+header nav {
+    flex-grow: 1;
+    text-align: right;
+}
+
+header span {
+    margin: 15px;
+}
+
+a {
+    color: seashell;
+}
+
+main {
+    position: relative;
+    top: 69px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4, p {
+    margin: 10px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.mission {
+    display: flex;
+    align-items: center;
+    background-image: url("../resources/img-mission-background.jpg");
+    width: 1200px;
+    height: 700px;
+}
+
+.boxtext {
+    width: 100%;
+    margin-top: 30px;
+    background-color: black;
+}
+
+.steep {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.steepitem {
+    width: 300px;
+    margin: 10px;
+    background-size: 300px 200px;
+}
+
+.steepitem img {
+    height: 200px;
+    width: 100%;
+    height: 100%;
+}
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../resources/img-locations-background.jpg");
+    width: 1200px;
+    height: 500px;
+    margin-top: 50px; 
+}
+
+.locationtext h2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.locationitems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.locationitem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    opacity: 1;
+    background-color: black;
+}
+
+.locationitem h3 {
+    margin: 0;
+}
+
+.footer {
+    height: 200px;
+}
+
+.copyright {
+    align-self: left;
+}
+
+.copyright p {
+    margin-left: 20px;
+}
